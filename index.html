@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+	
+	<!-- START head -->
+	<head>
+		<!-- Site meta charset -->
+		<meta charset="UTF-8">
+		
+		<!-- title -->
+		<title>APS Products Store- WordPress Plugin | Documentation</title>
+		
+		<!-- favicon -->
+		<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu">
+		<script type="text/javascript" src="assets/js/jquery.js"></script>
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col1">
+					<header id="intro" class="white-bg">
+						<h1><img src="assets/img/aps-intro.jpg" alt="Arena Produts Store - WordPress Plugin" /></h1>
+					</header>
+				</div>
+				
+				<div class="col1">
+					<div id="about" class="white-bg info-block">
+						<div class="row">
+							<div class="col5">
+								<ul class="intro-ul">
+									<li>Created: <em>18 August, 2014</em></li>
+									<li>Updated: <em>10 January, 2020</em></li>
+									<li>By: <em>Shahzad Anjum</em></li>
+									<li>Email: <a class="external" href="mailto:ch.shahzad.anjum@gmail.com"><em>ch.shahzad.anjum@gmail.com</em></a></li>
+									<li>Live Preview: <a href="http://demo.webstudio55.com/arena/"><em>Live Preview Site</em></a></li>
+								</ul>
+							</div>
+							
+							<div class="col3">
+								<p>
+									Thank you for purchasing my<br />
+									<strong>Arena Products Store - WordPress Plugin</strong><br />
+									If you have any questions that are beyond the scope of this help file,<br />
+									please feel free to email via plugin's support form <a href="http://codecanyon.net/item/arena-products-store-wordpress-plugin/8674943/support" title="CodeCanyon">here</a>.<br />
+									Thanks So Much!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col1">
+					<div id="settings" class="white-bg info-block">
+						<h2>Setting up APS plugin</h2>
+						<div class="section">
+							<div class="section-head">
+								<h3>Installation</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>You can install Arena Products Store plugin by using 1 of 2 methods described here</p>
+								<h4>Method 1</h4>
+								<p>You have already downloaded and unzipped aps-products-wp.zip copy > paste the folder called <em>aps-products.zip</em> on your desktop.</p>  
+								<p>Login to your wp-admin go to <em>Plugins > Add New</em> click on upload (link) in the next screen click on browse button and navigate to your desktop, find and select aps-products.zip, now press <em>Install Now</em> button (see image below), wait a few minutes (depend on your connection speed) when you see (successfully installed) text then click on activate link to activate your APS Arena Products - WordPress Plugin, now go to the plugin settings page, change settings as needed or leave as it is to use default settings.<br />
+								Congratulations You've Activated Your Arena Mobile Specs Plugin Successfully.</p>
+								<p><img src="assets/img/plugin-install-method-1.png" alt="Installation Method 1" /></p>
+								
+								<h4>Method 2</h4>
+								<p>Open unzipped folder aps-products-wp copy > paste the folder called <em>aps-products</em> on your desktop.</p>  
+								<p>Open up your favorite ftp client software <a href="http://filezilla-project.org/" title="You Can Download FileZilla by Clicking on This Link">fileZilla</a> or any other ftp client software or you can use fireFTP an extenssion for firefox and chrome, login to your web hosting server and upload folder <em>aps-products</em> to <em>/wp-content/plugins/</em> on your server after finish uploading you have successfully installed your APS Arena Products - WordPress Plugin.</p>
+								
+								<p>Now go to <em>Plugins</em> find APS Arena Products in the plugins list and click on activate, now go to the plugin settings page, change settings as needed or leave as it is to use default settings.<br />
+								Congratulations You've Activated Your Arena Mobile Specs Plugin Successfully.</p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Setup Required Pages</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>You have to create 4 unique required pages for displaying various templates of plugin, the plugin should not work properly without these pages.</p>
+								<ul class="list">
+									<li><strong>Main Catalog</strong>: used to be display main catalog of APS products.</li>
+									<li><strong>Brands List</strong>: used to be display an alphabetical list of all brands.</li>
+									<li><strong>Compare</strong>: used to be display one on one comparison of products.</li>
+									<li><strong>Comparisons List</strong>: used to be display a list of comparisons published by site owner(s).</li>
+								</ul>
+								<p>After creating 4 unique pages now you have to select and assign these pages to display appropriate data on each page.<br />
+								Navigate to APS Settings, click on General (tab) in the sidebar of APS Control Panel, now select these pages by using select box in the front of each field, don't forget to click on save changes button.</p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>APS Control Panel</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>Arena Products Store plugin has a number of settings to change the appearance of your products store, which you can control from APS Settings page, you will find 10 sections divided in tabs on settings page below i'll try to explain every aspect of plugin settings, however i have provided a brief description of each settings field below the field.</p>
+								<p>Don't forget to press Save Changes button to save changes you've made for each section.</p>
+								
+								<h4>Design</h4>
+								<p>You can change the layout and style of your online store by configuring Design Settings, select container width to match with your existing theme width, choose a skin from our pre-built skins or create your own by using color pickers belw to match with your theme's colors, select border or box shadow, select where to display content (left or right), control group icons display settings, also you can apply your custom CSS styles (read customization section below).</p>
+								<p><img src="assets/img/design-settings.png" alt="Design Settings" /></p>
+								
+								<h4>General</h4>
+								<p>Here you can change products main index page, index page main heading, search archive main heading, brands archive main heading etc, more details are available below each settings field.</p>
+								<p><img src="assets/img/main-settings.png" alt="Main Settings" /></p>
+								
+								<h4>Permalinks</h4>
+								<p>Here you can Configure permalinks structure for products, comparisons, categories and brands URLs rewrite, more details are available below each settings field.</p>
+								<p><img src="assets/img/permalinks-settings.png" alt="Permalinks Settings" /></p>
+								
+								<h4>Tabs</h4>
+								<p>In this section you can add / edit / delete tabs and contents of tabs, also you can change display order of tabs by drag and drop tabs boxes up down.</p>
+								<p><img src="assets/img/tabs-settings.png" alt="Tabs Settings" /></p>
+								
+								<h4>Zoom</h4>
+								<p>In Zoom settings section you can manage main (featured) image zoom settings, press save changes button to save the settings.</p>
+								<p><img src="assets/img/zoom-settings.png" alt="Zoom Settings" /></p>
+								
+								<h4>Gallery</h4>
+								<p>Here you can manage gallery lightbox settings, press save changes button to save the settings or "Reset Default" button to restore default settings.</p>
+								<p><img src="assets/img/gallery-settings.png" alt="Gallery Settings" /></p>
+								
+								<h4>Affiliates</h4>
+								<p>You can manage affiliate stores easily in affiliate settings, click <em>Add Store</em> to add a store, enter store name in name field, enter store's logo url in url field or select a logo image using media uploader.</p>
+								<p><img src="assets/img/affiliate-settings.png" alt="Affiliate Settings" /></p>
+								
+								<h4>Sidebars</h4>
+								<p>You can manage all APS Sidebars for all templates used to display output generated by APS plugin in sidebars section.</p>
+								<p><img src="assets/img/sidebars-settings.png" alt="Sidebars Settings" /></p>
+								
+								<h4>System</h4>
+								<p>In this section you can view information about your server softwares, web hosting features and WordPress, you may need to clear all the warnings (if any) to run the APS plugin smoothly without any issue.</p>
+								<p><img src="assets/img/system-info.png" alt="System information" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>APS Store Settings</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<h4>General</h4>
+								<p>In General settings you can manage location (country, state) of your store, select currency formating options and date format options etc.</p>
+								<p><img src="assets/img/store-general.png" alt="Store General Settings" /></p>
+								
+								<h4>Images</h4>
+								<p>Here you can change products image sizes for single product, products archives and thumbnails, 1st input field is for width in pixels and 2nd field is for height of image in each row, 3rd checkbox to enable hard cropping of images.</p>
+								<p><img src="assets/img/store-images.png" alt="Store Images Settings" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>APS Brands</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>APS Brands are designed to organize you products with their manufacturers for better presentation, so your visitors can find products manufactured by their favorite brands, you can add / edit / delete brands by visiting APS Brands management system, enter the name of brand select / upload brand's logo image and press Add Brand button to add a new brand which you can apply to products.</p>
+								<p><img src="assets/img/aps-brands.png" alt="APS Brands" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>APS Attributes</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>Attributes are taxonomy terms used to display product's additional data to visitors, you can Add / edit / delete product attributes like regular taxonomies terms by visiting APS Attributes management system, Enter a name and description for attribute, select the type of input field from dropdown, if input type select is selected than add some options by clicking on add option buttion, enter a value for option, press Add Attribute button.</p>
+								<p><img src="assets/img/aps-attributes.png" alt="APS Attributes" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>APS Groups</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>APS Groups are designed to group product attributes, You can add / remove / edit attributes groups by visiting APS Groups management system, enter a name for group, select an icon for group, add attributes to the group by using dropdown and Add Attribute button, selected attributes will be display above, also you can change display order of attributes by moving them up / down, press Add Group button to add new group or Update Group button to save changes.</p>
+								<p><img src="assets/img/aps-groups.png" alt="APS Groups" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>APS Rating Bars</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>APS Rating Bars are designed to display product ratings in a modern style by site owners and reviewers, You can define key aspects of ratings by add / remove / edit rating bars by visiting APS Rating Bars management system, enter a name for Rating Bar, select default value and press Add Rating Bar button to add new rating bar.</p>
+								<p><img src="assets/img/aps-rating-bars.png" alt="APS Rating Bars" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>APS Filters</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>APS Filter are designed to provide a tool to your visitors to find products which match their search criteria, so they can easily find products they are looking for, you can add / edit / delete product refine search filters by visiting APS Filters management system, enter a name for filter and press Add Filter button to add new filter, add filter terms by clicking on Add / Edit Filter terms for each filter.</p>
+								<p><img src="assets/img/aps-filters.png" alt="APS Filters" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>APS Categories</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>APS Categories are designed to display multiple types of products with different main features, attributes and groups in your store, You can add a category by visiting APS Categories management system, enter a name for category, select display settings of category archive, enter title for main features and select icon to display, add attributes groups by using dropdown and press Add Group button, you can change display order of groups by moving them up / down, below select rating bars for this category by using dropdown and press Add Rating Bar button, also you can change display order of rating bars by moving them up / down.</p>
+								<p>Now you will see filters below select appropriate filters for this category by checking the checkboxes, Now you can display category banner by uploading and selecting the banner image, press add image button and select the banner image, now press Add Category button to complete this task.</p>
+								<p><img src="assets/img/aps-categories.png" alt="APS Categories" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Customization</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>We've included 9 pre-built color schemes (skins) and ability to choose skin colors of your choice by using color pickers in plugin Design Settings tab, however if you are not satisfied with built-in styles and colors you can create your own styles from scratch if you are good to write CSS styles.</p>
+								<p>If you want to do this then open up <em>custom-styles.css</em> located in "/wp-content/plugins/aps-products/css/pre/" directory, add your own CSS styles in this file and save it, now goto APS Settings > Design > Custom CSS Stylesheet (select box) and select "Yes, Use My Styles" and press Save Changes button to load your styles, please remember this way plugin's styles will not be loaded at all.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col1">
+					<div id="contents" class="white-bg info-block">
+						<h2>Add Contents</h2>
+						<div class="section">
+							<div class="section-head">
+								<h3>Add New Product</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>To Add new product (post) navigate to APS Products in the dropdown menu click on <em>Add new APS Product</em> in the next screen you need to select a category for your product and click on Continue button, product attributes, rating bars and filters are now manage through categories, so you need to select a category to add product data in appropriate fields.</p>
+								<p><img src="assets/img/add-new-product.png" alt="Add New Product" /></p>
+								
+								<p>Now the process is similar as add new post, add product name in the title (input field), add some details about the product in content editor (also you can add images), look in the sidebar you'll see <em>APS Brands</em> metabox select a brand or add new brand if not found in dropdown list, below the brands you will see <em>APS Categories</em> meta box, here you can change category of product, after switching through categories you need to publish or save as draft the product to reload attributes groups, rating bars and filters related to selected category, scroll down a bit you'll see <em>Featured Image</em> metabox, set a featured image (main image of product).</p>
+								<p><img src="assets/img/add-product.png" alt="Add Product" /></p>
+								
+								<p>Now look at left hand column you'll see APS Product Data metabox, here you'll see product data tabs add general data of your product using input fields (product price, sku, availability, quantity, on sale, sale price, sale start and end date), you can manage currency settings of your store from APS Store > General Settings.</p>.</p>
+								<p><img src="assets/img/general-data.png" alt="General Data" /></p>
+								
+								<p>Click on Features tab to add main features of your product by using input fields enter the value of feature, you can edit feature title and icon by editing the category.</p>
+								<p><img src="assets/img/add-features.png" alt="Product Features" /></p>
+								
+								<p>Click on gallery tab to add images to product images gallery, you can add galley images by click on <em>Add Image</em> button, a new image box with a button will be created now click on Select Image button, default media uploader of WordPress will be opened, upload an image (800x800 pixels recommended) when image is uploaded add alt text (optional) and click on Add Image button (right bottom), media uploader will be closed and you'll see the image thumbnail in the gallery, Repeat the step to add more images, you can add unlimited number of imgaes for each product, drag and drop image boxes to change display order of images, you can delete an image by click on cross icon (right top) of image box or change an image by clicking on Select Image button.</p>
+								<p><img src="assets/img/add-gallery.png" alt="Product Images" /></p>
+								
+								<p>Now click on <em>Videos</em> tab to add videos about your product, click on <em>Add video</em> button, a set of input fields will be added, select a video hosting site from video host select box, now enter video id only (an alpha numeric string), repeat this step to add more videos, drag and drop fields box to change display order of videos.</p>
+								<p><img src="assets/img/add-videos.png" alt="Product Videos" /></p>
+								
+								<p>Now click on <em>Ratings</em> tab, here you can select rating of this product by drag and drop range input handles, You can add / edit / delete rating bars from plugin settings page.</p>
+								<p><img src="assets/img/add-ratings.png" alt="Product Ratings" /></p>
+								
+								<p>Click on next tab to add product specification data in attributes input fileds, here you will see pills (navigation) in the left side these are attributes groups, add product data in fileds, (you can add / delete / edit attributes groups from <em>APS Groups</em> management system and you can add attributes from <em>APS Attributes</em> management system.</p>
+								<p><img src="assets/img/fill-attributes.png" alt="Product Attributes" /></p>
+								
+								<p>Now click on <em>Filters</em> tab to select appropriate filters terms for this product, filters are helpfull for your visitors to search and find products they are looking for, you can add / edit / delete filters and filter terms from <em>APS Filters</em> management system.</p>
+								<p><img src="assets/img/select-filters.png" alt="Product Filters" /></p>
+								
+								<p>Add Affiliate offers for your product, click on <em>Offers</em> tab and add offer by clicking on <em>Add Offer</em> button select a store from ofeer dropdown box (you can add / edit / delete stores from APS Settings page) enter offer title, price and url in appropriate input fields, you can add more offers by reapeat this step, drag and drop offers to change order or click on cross icon (top right) to delete a offer.</p>
+								<p><img src="assets/img/add-offers.png" alt="Product Offers" /></p>
+								
+								<p>You can add custom tabs data by clicking on <em>Tabs</em> tab, use editors to add your content, leave empty if you don't want to show this tab for this product, you can add / edit / delete custom tabs from <em>APS Settings</em> page.</p>
+								<p><img src="assets/img/product-tab.png" alt="Product Tabs" /></p>
+								
+								<p>Now press Publish button to publish this product (post), Congratulations You've successfully added new product post, repeat steps to add more products (posts).</p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Add New Comparison</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>Add a new comparison of products is an easy step, simply click on Add New Comparison link, add some contents in content editor, select up to 3 products to compare by using select boxes, upload and set a featured image (800X500px for best results) press publish post button to publish the comparison.</p>
+								<p><img src="assets/img/add-comparison.png" alt="Add Comparison" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Import / Export</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>This is optional if you want to import dummy contents for test and learning propose, navigate to the Wordpress dashboard. Go to <em>APS Import / Export</em> page and select aps-data.json file from Demo Data folder included in download package.</p>
+								<p>Now select what you want to import from import panel and press Import button, also you can import / export APS products, Categories, Attributes Groups, Rating Bars, Filters and settings by using APS Import / Export features.</p>
+								<p><img src="assets/img/import-data.png" alt="Import Demo Content" /></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col1">
+					<div id="widgets" class="white-bg info-block">
+						<h2>Sidebar Widgets</h2>
+						<div class="section">
+							<div class="section-head">
+								<h3>Widgets Setup</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>This is very important to setup your sidebars using proper widgets for better looks and functionality, <em>APS Products - WordPress Plugin</em> has 6 built-in widgets and a sidebars (APS Sidebars) you can setup sidebars to display on different templates (Products index page, brands and search archives, product single page, products comparision page).</p>
+								<p>Navigate to Appearance > Widgets you'll see APS Sidebars and APS Widgets Drag and Drop each widget to the sidebar, enter a title (leave empty if you don't want to display widget title) change other settings as needed, press save button to save settings, repeat steps to add more widgets to APS Sidebars.</p>
+								<p><img src="assets/img/aps-sidebar.png" alt="Widgets Setup" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Search Widget</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>APS Search widget is designed to display an ajax powered search bar in the sidebar, you can select how much results you want to display from widget's settings.</p>
+								<p><img src="assets/img/search-widget.png" alt="Search Widget" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>New Arrivals Widget</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>APS New Arrivals widget is designed to display most recent products (posts) in the sidebar, you can change the number of products being display from widget's settings.</p>
+								<p><img src="assets/img/new-arrivals-widget.png" alt="New Arrivals Widget" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Recent Compares Widget</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>APS Recent Compares widget is designed to display most recent products comparisons (posts) in the sidebar, you can change the number of comparisons being display from widget's settings.</p>
+								<p><img src="assets/img/recent-compares-widget.png" alt="Recent Compares Widget" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Categories Widget</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>APS Categories widget is created to display a list of product categories with optional number of products you've added, you can enable / disable this functionality from widget's settings.</p>
+								<p><img src="assets/img/cats-widget.png" alt="Categories Widget" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Brands Widget</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>APS Brands widget is created to display a list of products manufacturers with optional number of products you've added, you can enable / disable this functionality from widget's settings.</p>
+								<p><img src="assets/img/brands-widget.png" alt="Brands Widget" /></p>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Top Rated Widget</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>APS Top Rated Products widget would be display top rated products (sort by ratings), you can control the output of the widget by changing widget's settings.</p>
+								<p><img src="assets/img/top-rated-widget.png" alt="Top Rated Widget" /></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col1">
+					<div id="shortcodes" class="white-bg info-block">
+						<h2>Shortcodes</h2>
+						<div class="section">
+							<div class="section-head">
+								<h3>Product</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<pre>[aps_product id="99"]</pre>
+								<p>You can display APS product with full details anywhere on your site by using this shortcode.</p>
+								<ul class="list">
+									<li><strong>id</strong>: post id of product you wish to display</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Products List</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<pre>[aps_products num="12" order="DESC" type="grid" cat="cat-slug" brand="brand-slug"]</pre>
+								<p>You can display products anywhere on your site by using this shortcode.</p>
+								<ul class="list">
+									<li><strong>num</strong>: number of products to display (default 12)</li>
+									<li><strong>order</strong>: DESC or ASC (default DESC)</li>
+									<li><strong>type</strong>: display products in list or grid style (default grid)</li>
+									<li><strong>cat</strong>: category slug or comma separated multiple categories slugs to display products from (default all categories)</li>
+									<li><strong>brand</strong>: brand slug or comma separated multiple brands slugs to display products from (default all brands)</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Product Main Features</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<pre>[aps_product_features id="product id" style="list"]</pre>
+								<p>Display Product's main features in list, iconic or metro style.</p>
+								<ul class="list">
+									<li><strong>id</strong>: post id of product (required)</li>
+									<li><strong>style</strong>: list, iconic or metro (default list)</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Product Specifications</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<pre>[aps_product_specs id="product id"]</pre>
+								<p>Display specifications of a product by using this shortcode, only attribute is product's post id, the shortcode should be like this [aps_product_specs id="396"] display specifications of product id 396</p>
+								<ul class="list">
+									<li><strong>id</strong>: post id of product (required)</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Products Comparison</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<pre>[aps_comparison ids="comma separated products ids"]</pre>
+								<p>Display full one on one comparison of products anywhere on your website by using this shortcode, only attribute is a list of comma separated products ids (post id of product) like 234,345,456 make sure product ids are valid.</p>
+								<p>Products order in the comparison can be changed by changing the order of products ids list like this 345,456,234<br />
+								The complete shortcode should be like this [aps_comparison ids="234,345,456"] to display comparison between product id 234 and 345 and 456</p>
+								<ul class="list">
+									<li><strong>ids</strong>: post ids of products (required)</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col1">
+					<div id="localization" class="white-bg info-block">
+						<h2>Localization</h2>
+						<div class="section">
+							<div class="section-head">
+								<h3>Translate into Your Language</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>Your <em>APS Products - WordPress Plugin</em> is Ready for <em>Localization</em>, We have made every string translateable with text domain "aps-text", you can translate easily into your language.</p>
+								<p>You can use <em>Loco Translate</em> WordPress plugin for translate and create .mo, .po files.<br />
+								If you have plugin installed and activated, you will get a new menu entry which is named "Loco Translate". When you select the menu link, you will get the complete overview about all components of your WordPress installation, that are gettext ready or having already language files on board.</p>
+								<p>This plugin inspects WordPress itself, all plugins out of plugins folder and also all themes out of theme folder. Only those components will be listed that are really gettext ready and can handle translation files. you can get more information <a href="https://localise.biz/help/wordpress/translate-plugin/beginners">here</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col1">
+					<div id="advanced" class="white-bg info-block">
+						<h2>Advanced</h2>
+						<div class="section">
+							<div class="section-head">
+								<h3>APS Action and Filter hooks</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>This section is only for advanced users who know how to use action and filter hooks, if you can?, you can use filters and actions to modify the output generated by APS plugin.</p>
+								<p>Below is the list of action and filter hooks i have added in APS so you can modify / add your contents in various sections of template files .etc</p>
+								<h4>Filter Hooks</h4>
+								<ul class="changes">
+									<li>aps_settings_fields <em>filter to modify settings options array</em></li>
+									<li>get_aps_icons <em>filter to add icons to icons array</em></li>
+									<li>cpt_aps_products_args <em>modify cpt registeration args</em></li>
+									<li>register_tax_aps_brands_args <em>modify taxonomy brands registeration args</em></li>
+									<li>register_tax_aps_cats_args <em>modify taxonomy cats registeration args</em></li>
+									<li>register_tax_aps_attributes_args <em>modify taxonomy attributes registeration args</em></li>
+									<li>register_tax_aps_groups_args <em>modify taxonomy groups registeration args</em></li>
+									<li>register_tax_aps_filters_args <em>modify taxonomy filters registeration args</em></li>
+									<li>register_tax_aps_rating_bars_args <em>modify taxonomy rating bars registeration args</em></li>
+									<li>get_aps_sidebars_args <em>register custom sidebars</em></li>
+									<li>aps_additional_sidebars <em>add additional sidebars (registered by theme or other plugins)</em></li>
+									<li>aps_catalog_query_args <em>main catalog query args</em></li>
+									<li>aps_search_archive_query_args <em>search archive query args</em></li>
+									<li>aps_brand_archive_query_args <em>brand archive query args</em></li>
+									<li>aps_cat_archive_query_args <em>category archive query args</em></li>
+									<li>aps_comparisons_query_args <em>comparisons list query args</em></li>
+									<li>add_aps_css_styles <em>add your CSS styles</em></li>
+									<li>add_aps_css_styles_rtl <em>add your CSS styles for RTL langs</em></li>
+									<li>get_aps_store_settings_tabs <em>Add /edit store settings sections as tabs</em></li>
+									<li>aps_get_currencies <em>add / edit store currencies array</em></li>
+									<li>aps_get_base_currency <em>Modify store's base currency settings on the fly</em></li>
+									<li>aps_format_product_price <em>Use this filter to modify price formating of products</em></li>
+								</ul>
+								
+								<h4>Action Hooks</h4>
+								<ul class="changes">
+									<li><em>Action hooks used in various sections of single product template</em>
+										<ul>
+											<li>aps_single_before_title</li>
+											<li>aps_single_after_title</li>
+											<li>aps_single_after_features</li>
+											<li>aps_single_before_overview</li>
+											<li>aps_single_before_content</li>
+											<li>aps_single_after_content</li>
+											<li>aps_single_before_specs</li>
+											<li>aps_single_after_specs</li>
+											<li>aps_single_before_reviews</li>
+											<li>aps_single_after_reviews</li>
+											<li>aps_single_before_videos</li>
+											<li>aps_single_after_videos</li>
+											<li>aps_single_before_gallery</li>
+											<li>aps_single_after_gallery</li>
+											<li>aps_single_before_offers</li>
+											<li>aps_single_after_offers</li>
+											<li>aps_single_before_custom1</li>
+											<li>aps_single_after_custom1</li>
+											<li>aps_single_before_custom2</li>
+											<li>aps_single_after_custom2</li>
+											<li>aps_single_before_custom3</li>
+											<li>aps_single_after_custom3</li>
+											<li>aps_single_before_related</li>
+											<li>aps_single_after_related</li>
+										</ul>
+									</li>
+									<li><em>Action hooks used in single product added by shortcode</em>
+										<ul>
+											<li>aps_sc_single_before_title</li>
+											<li>aps_sc_single_after_title</li>
+											<li>aps_sc_single_after_features</li>
+											<li>aps_sc_single_before_overview</li>
+											<li>aps_sc_single_before_content</li>
+											<li>aps_sc_single_after_content</li>
+											<li>aps_sc_single_before_specs</li>
+											<li>aps_sc_single_after_specs</li>
+											<li>aps_sc_single_before_reviews</li>
+											<li>aps_sc_single_after_reviews</li>
+											<li>aps_sc_single_before_videos</li>
+											<li>aps_sc_single_after_videos</li>
+											<li>aps_sc_single_before_gallery</li>
+											<li>aps_sc_single_after_gallery</li>
+											<li>aps_sc_single_before_offers</li>
+											<li>aps_sc_single_after_offers</li>
+											<li>aps_sc_single_before_custom1</li>
+											<li>aps_sc_single_after_custom1</li>
+											<li>aps_sc_single_before_custom2</li>
+											<li>aps_sc_single_after_custom2</li>
+											<li>aps_sc_single_before_custom3</li>
+											<li>aps_sc_single_after_custom3</li>
+										</ul>
+									</li>
+									<li><em>Main catalog action hooks</em>
+										<ul>
+											<li>aps_catalog_before_title</li>
+											<li>aps_catalog_after_title</li>
+											<li>aps_catalog_after_controls</li>
+											<li>aps_catalog_after_results</li>
+										</ul>
+									</li>
+									<li><em>Search Archive action hooks</em>
+										<ul>
+											<li>aps_search_archive_before_title</li>
+											<li>aps_search_archive_after_title</li>
+											<li>aps_search_archive_after_controls</li>
+											<li>aps_search_archive_after_results</li>
+										</ul>
+									</li>
+									<li><em>Brand Archive action hooks</em>
+										<ul>
+											<li>aps_brand_archive_before_title</li>
+											<li>aps_brand_archive_after_title</li>
+											<li>aps_brand_archive_after_controls</li>
+											<li>aps_brand_archive_after_results</li>
+										</ul>
+									</li>
+									<li><em>Category Archive action hooks</em>
+										<ul>
+											<li>aps_cat_archive_before_title</li>
+											<li>aps_cat_archive_after_title</li>
+											<li>aps_cat_archive_after_controls</li>
+											<li>aps_cat_archive_after_results</li>
+										</ul>
+									</li>
+									<li><em>Brands List page action hooks</em>
+										<ul>
+											<li>aps_brands_list_before_title</li>
+											<li>aps_brands_list_after_title</li>
+											<li>aps_brands_list_after_alphabet</li>
+										</ul>
+									</li>
+									<li><em>Compare page action hooks</em>
+										<ul>
+											<li>aps_compare_after_search</li>
+											<li>aps_compare_before_title</li>
+											<li>aps_compare_after_title</li>
+											<li>aps_compare_after_comparison</li>
+										</ul>
+									</li>
+									<li><em>Comparisons List action hooks</em>
+										<ul>
+											<li>aps_comparisons_before_title</li>
+											<li>aps_comparisons_after_title</li>
+											<li>aps_comparisons_after_results</li>
+										</ul>
+									</li>
+									<li><em>APS Store settings sections</em>
+										<ul>
+											<li>aps_store_location_settings</li>
+											<li>aps_store_currency_settings</li>
+											<li>aps_store_images_settings</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>How to Use Action Hooks</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>Usage of action hooks is simple, for example you want to display an advertisement banner after title in single product view, place this code below in your theme's functions.php or create a separate plugin to keep your changes saved when you updates the APS plugin or theme.</p>
+<pre>
+&lt;?php // display ad banner after title of single product
+
+function mycustom_ad_banner() {
+	// your ad banner contents goes here
+}
+
+add_action('aps_single_after_title', 'mycustom_ad_banner'); ?&gt;
+</pre>
+							</div>
+						</div>
+						
+						<div class="section">
+							<div class="section-head">
+								<h3>Templates Customization</h3>
+								<span></span>
+							</div>
+							<div class="section-content">
+								<p>You can customize the templates without losing the changes after updates, create a folder in your theme directory, name it "aps", create another folder "temps" inside "aps" folder, copy the template (from "temps" directory of plugin) you want to customize into newly created folder "temps" in your theme.</p>
+								<p>Open the copied file in a code editor of your choice, modify the template, if you need to modify files located in "parts" directory of plugin, you have to create another folder inside "temps" folder (in your theme), name it "parts" copy the files and modify as needed.</p>
+								<p>We are using a function "aps_load_template_part" to include template parts in templates, you have to supply appropriate parameters to the function or you may include template parts by using "include" function.</p>
+								<p>The arguments of "aps_load_template_part" function is as follow.</p>
+<pre>aps_load_template_part($slug, $dir, $prams, $once);</pre>
+								<ul>
+									<li><strong>$slug</strong> (string) the file name with complete path without .php file extension</li>
+									<li><strong>$dir</strong> (string) the diectory name in our case is "aps"</li>
+									<li><strong>$prams</strong> (array) an associated array of values used in part file</li>
+									<li><strong>$once</strong> (boolean) default false, can be true if you want to include the part only once.</li>
+								</ul>
+								<p></p>
+								<p>For example we want to customize the main features of product in single product template, we have to copy aps-single.php template in temps folder of your theme, then copy the "aps-single-features.php" file in "parts" (folder created in your theme) open the "aps-single-features.php" file in a code editor make your changes and save it, <br />
+								now open "aps-single.php" file from your theme find the features section and change the parameter of "aps_load_template_part" as follow.</p>
+								<pre>aps_load_template_part('temps/parts/aps-single-features', 'aps', $features_params);</pre>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col1">
+					<div id="advanced" class="white-bg info-block">
+						<h2>FAQs</h2>
+						<p><strong>How to update my website using latest version of APS plugin ?</strong><br />
+						Please download latest version of APS Arena Products Store – WordPress plugin from codecanyon.net by using your envato account, unzip downloaded .zip file on your desktop.<br />
+						It’s good to make a backup of your database.<br />
+						Now logged-in to your WP dashboard, navigate to Plugins, find APS Arena Products in plugins list, click on deactivate then click on delete after deactivating the plugin.<br />
+						Now click on Add New button, then click on Upload Plugin button, a file browser should be opened, navigate to your desktop > aps-products-wp folder and select aps-products.zip, after uploading activate the plugin.<br />
+						You are done, enjoy latest features of APS Products.
+						</p>
+						
+						<p><strong>I am seeing Access denied error while trying to access APS Products in admin after updating ?</strong><br />
+						You have to deactivate APS plugin and then re-activate the plugin to fix user permissions errors.
+						</p>
+						
+						<p><strong>Error 404 – Not Found ?</strong><br />
+						Make sure you have setup all required pages uniquely from APS Settings > General<br />
+						Make sure there is no conflict between permalinks slugs for pages and APS slugs, check from APS Settings > Permalinks<br />
+						You need to flush your permalinks settings to solve the problem, simply go to Settings > Permalinks and click on save settings button from your wp-admin dashboard.
+						</p>
+						
+						<p><strong>I have an existing theme for my website. Can I add this plugin as new feature to my website ?</strong><br />
+						Yes, you can use Arena Products Store – WordPress plugin to display products database (specs, images, reviews), comparisons and affiliate offers from online web stores like amazon on your website.
+						</p>
+						
+						<p><strong>is it possible to create compare pages between the Products ?</strong><br />
+						Yes you can create unlimited custom comparisons within a few clicks.
+						</p>
+						
+						<p><strong>Is Arena Products Store compatible with all themes ?</strong><br />
+						Arena Products Store - WordPress Plugin is compatible with most standard WordPress themes, we recommend to use theme's built on bootstrap 3+ framework, but you may need to change a few CSS styles to match the layout and color schemes.
+						</p>
+						
+						<p><strong>Is it possible to add my custom tabs next to the "specs" tab ?</strong><br />
+						Yes you can add new custom tabs, delete / manage / re-order tabs in tabs management system by using drag and drop functionality.
+						</p>
+						
+						<p><strong>Does it support other languages ?</strong><br />
+						Yes, it’s ready to localize in your language, every string used in plugin is translate-able.
+						</p>
+						
+						<p><strong>Is APS Products data saved in a special database table ?</strong><br />
+						No, APS using WordPress's default posts and post meta table to save products data.
+						</p>
+						
+						<p><strong>Is Arena Products Store compatible with Jet Pack WordPress plugin ?</strong><br />
+						Unfortunatily Arena Products Store is not completely compatible with Jet Pack
+						</p>
+						
+						<p><strong>Attributes and Groups are not displaying in product specs ?</strong><br />
+						You have to select attributes groups by editing relevant Category.
+						</p>
+					</div>
+				</div>
+				
+				<div class="col1">
+					<div id="changelogs" class="white-bg info-block">
+						<h2>Changelogs</h2>
+						<h4>Version 2.6 <em>(10 January 2020)</em></h4>
+						<ul class="changes">
+							<li>Add new iconic style for product features</li>
+							<li>Enhanced Brnads widget display</li>
+							<li>Improvements in product attributes table</li>
+							<li>Improvements in product comparison table</li>
+							<li>New foldable attributes styling</li>
+							<li>Product schema (microdata) validation issues resolved</li>
+							<li>A number of small changes and enhancements</li>
+							<li>All reported and known issues are fixed</li>
+						</ul>
+						
+						<h4>Version 2.5.5 <em>(20 December 2018)</em></h4>
+						<ul class="changes">
+							<li>PHP 7.x compatibility issues resolved</li>
+							<li>WordPress 5 and Gutenberg compatibility issues resolved</li>
+							<li>Main Product Features are editable now</li>
+							<li>A number of small changes and enhancements</li>
+							<li>All reported and known issues are fixed</li>
+						</ul>
+						
+						<h4>Version 2.5.4 <em>(29 July 2018)</em></h4>
+						<ul class="changes">
+							<li>Compare icon replaced with a checkbox and text</li>
+							<li>Comparison shortcode created to display products comparisons dynamically</li>
+							<li>PHP 7.x compatibility issues resolved</li>
+							<li>Optimized javascrips for performance improvements</li>
+							<li>A number of small changes and enhancements</li>
+							<li>All reported and known issues are fixed</li>
+						</ul>
+						
+						<h4>Version 2.5.3 <em>(02 August 2017)</em></h4>
+						<ul class="changes">
+							<li>Review posting issue solved</li>
+							<li>Compare icon problem fixed in single product</li>
+							<li>Videos playback issue in lightbox solved</li>
+							<li>Lightbox javascript updated</li>
+							<li>All reported and known issues are fixed</li>
+						</ul>
+						
+						<h4>Version 2.5.2 <em>(15 July 2017)</em></h4>
+						<ul class="changes">
+							<li>Comparsion support unlimited number of products</li>
+							<li>Comparisons now support categories</li>
+							<li>Comparison and specs table layout enhancements</li>
+							<li>Re-build user's comparisons list panel</li>
+							<li>70+ new icons added</li>
+							<li>RTL layout enhancements for gallery carousel</li>
+							<li>A number of small changes in all templates</li>
+							<li>All reported and known issues are fixed</li>
+						</ul>
+						
+						<h4>Version 2.5.1 <em>(12 February 2017)</em></h4>
+						<ul class="changes">
+							<li>Small reported and known issues are fixed</li>
+						</ul>
+						
+						<h4>Version 2.5 <em>(02 February 2017)</em></h4>
+						<ul class="changes">
+							<li>Product pricing management system added</li>
+							<li>Store settings, store location, currency settings added</li>
+							<li>Product Image sizes settings added</li>
+							<li>Product image zooming script replaced with new script (support touch devices)</li>
+							<li>Product gallery improvements (thumbnail carousel added)</li>
+							<li>Improved product data tabs (support url hash)</li>
+							<li>Custom comparison urls improvements (shareable comparision links)</li>
+							<li>Categories widget added to display categories list in sidebar</li>
+							<li>Breadcrumbs added (enable / disable from settings)</li>
+							<li>Rating bars animation control (enable / disable from settings)</li>
+							<li>Improvements in Attributes Groups layout</li>
+							<li>Product microdata support added for better SEO indexing</li>
+							<li>Enhanced import / export functionality</li>
+							<li>Small design / layout / transitions changes</li>
+							<li>and a number of small changes and performance improvements</li>
+						</ul>
+						
+						<h4>Version 2.4.1 <em>(23 April 2016)</em></h4>
+						<ul class="changes">
+							<li>Solved reported php warnings</li>
+						</ul>
+						
+						<h4>Version 2.4 <em>(21 April 2016)</em></h4>
+						<ul class="changes">
+							<li>Redesigned Settings Control Panel</li>
+							<li>Improved Product Filters</li>
+							<li>Moved Product Main Features under Categories</li>
+							<li>Improved plugin navigation using Tabs like menu</li>
+							<li>Replaced jvascript range input with native customized range input</li>
+							<li>Full RTL languages support added</li>
+							<li>Resolved WordPress v4.5 compatibility issues</li>
+							<li>Number of small changes, improvements and fixes</li>
+						</ul>
+						
+						<h4>Version 2.3 <em>(15 March 2016)</em></h4>
+						<ul class="changes">
+							<li>Added Sidebar management system</li>
+							<li>Improved Comparison publishing</li>
+							<li>Added filter hooks (for queries and settings)</li>
+							<li>Added action hooks in templates</li>
+							<li>Few miner changes and improvements</li>
+							<li>Fixed all errors and bugs</li>
+						</ul>
+						
+						<h4>Version 2.2 <em>(20 November 2015)</em></h4>
+						<ul class="changes">
+							<li>Fixed minor bugs reported by users</li>
+						</ul>
+						
+						<h4>Version 2.1 <em>(15 November 2015)</em></h4>
+						<ul class="changes">
+							<li>Fixed tabs settings Problem</li>
+							<li>Improved refine search filters</li>
+						</ul>
+						
+						<h4>Version 2.0 <em>(10 November 2015)</em></h4>
+						<ul class="changes">
+							<li>Redesigned plugin for multiple products type support</li>
+							<li>Added Product categories taxonomy</li>
+							<li>Added Attributes groups taxonomy</li>
+							<li>Added Rating Bars taxonomy</li>
+							<li>Added JSON data import / export feature</li>
+							<li>Added support for product based main features</li>
+							<li>Added brands list page</li>
+							<li>Added brands logo image support</li>
+							<li>Added product categories banner image support</li>
+							<li>Added category based groups, rating bars and filters support</li>
+							<li>Added 200+ new font face icons</li>
+							<li>CSS Styles enhancements and other small changes</li>
+						</ul>
+						
+						<h4>Version 1.4 <em>(22 April 2015)</em></h4>
+						<ul class="changes">
+							<li>Fixed Localization Problems</li>
+							<li>Added Comparison List Overlay Animated Sidebar</li>
+							<li>Added Main Features List Style</li>
+							<li>Fixed some CSS styling issues</li>
+							<li>Fixed all bugs, reported by users</li>
+						</ul>
+						
+						<h4>Version 1.3 <em>(23 March 2015)</em></h4>
+						<ul class="changes">
+							<li>Fixed attributes name spaces issue for some languages</li>
+							<li>Fixed Rating Bras name spaces issue</li>
+							<li>Added Main Features flipping effects switch</li>
+							<li>Fixed some CSS styling issues</li>
+							<li>Fixed all bugs, reported by users</li>
+						</ul>
+						
+						<h4>Version 1.2 <em>(4 January 2015)</em></h4>
+						<ul class="changes">
+							<li>Added Attributes Groups management system</li>
+							<li>Added Product Attributes management system</li>
+							<li>Added Product Filters management system</li>
+							<li>Added Affiliate Stores management system</li>
+							<li>Added Product Videos management system</li>
+							<li>Added Shortcodes</li>
+							<li>Added RTL langages support</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col1">
+					<div id="settings" class="white-bg info-block">
+						<h2>Thank You</h2>
+						<p>Once again, thank you so much for purchasing <em>APS Products Store - WordPress Plugin</em>. As I said at the beginning, I'd be glad to help you if you have any questions relating to this plugin. No guarantees, but I'll do my best to assist. If you have a more general question relating to the plugin on <a href="http://codecanyon.net" title="CodeCanyon" target="_blank">CodeCanyon</a>, you might consider visiting the forums and asking your question in the "Item Support" section. or please feel free to email me via my user page contact form <a href="http://codecanyon.net/user/Anjum" title="Send Message to Anjum" target="_blank">here</a>.</p>
+						<h5>Shahzad Anjum</h5>
+						<p><a href="http://www.webstudio55.com/" title="Visit My WebSite" target="_blank">WebStudio55</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
